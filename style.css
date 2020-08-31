@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.header {
+    padding: 2em;
+    -webkit-box-shadow: 0px 15px 14px -10px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 15px 14px -10px rgba(0,0,0,0.69);
+    box-shadow: 0px 15px 14px -10px rgba(0,0,0,0.69);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 3em;
+    height: 70vh;
+    width: 40vw;
+    padding: 1em;
+}
+
+li {
+    margin-left: 1.5em;
+}
+
+img {
+    padding-top: 1em;
+    height: auto;
+    width: 100%;
+}
